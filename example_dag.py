@@ -12,7 +12,7 @@ def _choose_best_model(ti):
         'training_model_C'
     ])
     best_accuracy = max(accuracies)
-    if (best_accuracy > 8):
+    if (best_accuracy > 9):
         return 'accurate'
     return 'inaccurate'
 
