@@ -16,3 +16,5 @@ with DAG(
     def update_my_file():
         with open(my_file.uri, "a+") as f:
             f.write("producer update")
+
+    update_my_file()  
